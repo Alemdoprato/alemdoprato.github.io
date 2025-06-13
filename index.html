@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Além do Prato</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fotogaleria.css">
+    <link rel="icon" href="./img/logo.png">
+</head>
+<body>
+    <!-- Default Header -->
+    <!-- TODO: Adicionar mapa? -->
+    <header>
+        <img src="./img/logo.png" alt="Logo de Além do Prato">
+        <div id="links" class="disabled">
+            <div class="links">
+                <a href="javascript:void(0);" onclick="changePage('sobre');">sobre</a>
+                <a href="javascript:void(0);" onclick="changePage('fotogaleria');">fotogaleria</a>
+            </div>
+        </div>
+        <div id="links" class="desktop">
+            <div class="links">
+                <a href="javascript:void(0);" onclick="changePage('sobre');">sobre</a>
+                <a href="javascript:void(0);" onclick="changePage('fotogaleria');">fotogaleria</a>
+            </div>
+        </div>
+        <a href="javascript:void(0);" class="navbutton" onclick="navButton()">
+        </a>
+    </header>
+
+    <main>
+        <div id="sobre">
+            <img class="focus" src="img/home/armenia_1.jpg">
+            <div>
+                <div class="typewriter typing">
+                    <h1>Effendi</h1>
+                </div>
+                <!-- TODO: Trocar icone para um alfinete -->
+                <h2>- São Paulo, SP</h2>
+            </div>
+        </div>
+        <div id="fotogaleria" class="disabled">
+            <div class="container">
+                <p class="info">
+                    Escolha uma galeria para navegar.
+                </p>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget sem vestibulum, dignissim nulla et, viverra eros. Nullam ac elit lacus. Vivamus id ante nibh. Nunc malesuada, nibh eget commodo vehicula, arcu turpis tristique ex, sed ultricies odio ex nec urna. Suspendisse sit amet magna purus. Donec eget mauris finibus, maximus enim quis, egestas dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+                </p>
+                <p>
+                    Nunc tincidunt porta mauris, in lobortis nisi mollis et. Vestibulum scelerisque tempus mauris id laoreet. Integer suscipit porttitor mollis. Ut vehicula erat sit amet justo rhoncus, a sollicitudin nunc aliquet. Aenean tincidunt cursus neque blandit rutrum. Nam at odio orci. Proin nec cursus velit. Morbi porttitor tortor sed risus cursus, eu sagittis lorem imperdiet. Mauris elementum dolor non ornare luctus. Ut nec lacus non elit sollicitudin dignissim. Nullam quis tristique nibh. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In vitae sem sit amet leo elementum bibendum id vel massa.
+                </p>
+                <p>
+                    Nam tempor, lacus vitae tempor condimentum, lorem velit pulvinar massa, ac semper orci diam et nisl. Nunc lobortis volutpat ultricies. Nulla sed congue quam, nec cursus elit. Nullam magna ex, mattis convallis augue id, lobortis lacinia lorem. Cras mollis quam et arcu tempor finibus. Aliquam erat volutpat. Cras tellus nunc, gravida sit amet faucibus sed, porttitor eget odio. Ut interdum laoreet ipsum, sed maximus tellus eleifend in. Sed convallis nec est et iaculis. Integer diam lacus, sagittis pulvinar rhoncus non, luctus eget nunc.
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        Lorem ipsum dolor sit amet, consectetur adipiscing
+    </footer>
+    <script src="js/index.js"></script>
+    <script>    
+        index = true;
+
+        preloadImages();
+        
+        var intervalId = window.setInterval(function() { fadeOutImage(); }, intervalTime * 1000);
+
+        fadeInImage();
+    </script>
+</body>
+</html>
