@@ -84,8 +84,10 @@ header a:hover {
 
 header, footer {
     display: flex;
-    background-color: #ffffff;
+    background-color: #ffffffb0;
+    background-blend-mode:lighten;
     box-shadow: 0px 20px 40px 10px rgba(0, 0, 0, 0.15);
+    background-image: url("../img/background_n.jpg");
 }
 
 /* Desktop Responsive */
@@ -142,6 +144,14 @@ header, footer {
 
     .mainheader {
         display: none;
+    }
+
+    main #sobre h2 {
+        font-size: 1.1vw;
+    }
+
+    main #sobre h2 i {
+        font-size: 1vw;
     }
 }
 
@@ -232,12 +242,19 @@ header, footer {
     .typewriter h1 {
         font-size: 8vw !important;
     }
+
+    main #sobre h2 {
+        font-size: 4vw;
+    }
+
+    main #sobre h2 i {
+        font-size: 4.2vw;
+    }
 }
 
 main #sobre h2 {
     color: white;
     text-align: center;
-    font-size: 1.1vw;
     width: 150%;
 }
 
