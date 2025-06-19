@@ -6,13 +6,27 @@
     <title>Além do Prato</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fotogaleria.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="icon" href="./img/logo.png">
 </head>
 <body>
     <!-- Default Header -->
     <!-- TODO: Adicionar mapa? -->
     <header>
-        <img src="./img/logo.png" alt="Logo de Além do Prato">
+        <img class="mainlogo" src="./img/logo.png" alt="Logo de Além do Prato">
+        <div class="mainheader">
+            <div>
+                <img src="./img/logo.png" alt="Logo de Além do Prato">
+            </div>
+            <div style="display: flex; align-content: center; justify-content: center;">
+                <a class="material-icons" style="font-size: 50px;" href="javascript:void(0);" class="navbutton" onclick="navButton()">
+                    menu
+                </a>
+                <a class="material-icons" style="font-size: 50px;" href="javascript:void(0);" class="navbutton" onclick="navButton()">
+                    apps
+                </a>
+            </div>
+        </div>
         <div id="links" class="disabled">
             <div class="links">
                 <a href="javascript:void(0);" onclick="changePage('sobre');">sobre</a>
@@ -25,8 +39,6 @@
                 <a href="javascript:void(0);" onclick="changePage('fotogaleria');">fotogaleria</a>
             </div>
         </div>
-        <a href="javascript:void(0);" class="navbutton" onclick="navButton()">
-        </a>
     </header>
 
     <main>
@@ -37,7 +49,7 @@
                     <h1>Effendi</h1>
                 </div>
                 <!-- TODO: Trocar icone para um alfinete -->
-                <h2>- São Paulo, SP</h2>
+                <h2><i class="material-icons" style="font-size: 1vw;">place</i> São Paulo, SP</h2>
             </div>
         </div>
         <div id="fotogaleria" class="disabled">
