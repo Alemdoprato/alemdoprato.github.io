@@ -23,7 +23,6 @@ main #fotogaleria {
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
 
-    margin-top: 1.5%;
     background-size: cover;
     
     padding: 1%;
@@ -31,6 +30,14 @@ main #fotogaleria {
 
     background-blend-mode: multiply;
     background-color: #2e2e2e80;
+
+    cursor: pointer;
+
+    transition: transform 0.1s;
+}
+
+.banner:hover {
+    transform: scale(1.05);
 }
 
 .banner-title {
@@ -78,6 +85,15 @@ main #fotogaleria {
         gap: 2%;
         font-size: 1vw;
     }
+
+    .banner {
+        margin-bottom: 1.5%;
+    }
+
+    .info {
+        font-size: 1.15vw;
+        margin-bottom: 1.5%;
+    }
 }
 
 /* Mobile Responsive */
@@ -92,10 +108,17 @@ main #fotogaleria {
         flex-direction: column;
         display: flex;
         gap: 2%;
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     .banner {
         padding: 5%;
+        margin-bottom: 4%;
+    }
+
+    .info {
+        font-size: 5vw;
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
 }

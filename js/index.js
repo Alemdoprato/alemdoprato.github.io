@@ -2,7 +2,7 @@
 
 var currentPage = 'sobre';
 
-var intervalTime = 10;
+var intervalTime = 15;
 var transitionTime = 3.5; 
 
 var homeImagesUrls = [
