@@ -5,32 +5,229 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Além do Prato</title>
     <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/galleries/armenia.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="icon" href="./img/logo.png">
 </head>
 <body>
-    <header>
-        <img class="mainlogo" src="./img/logo.png" alt="Logo de Além do Prato">
-        <div class="mainheader">
-            <div>
-                <!-- TODO: Ir pra index.html ao clicar na logo -->
-                <img src="./img/logo.png" alt="Logo de Além do Prato">
-            </div>
-            <div style="display: flex; align-content: center; justify-content: center;">
-                <a class="material-icons" style="font-size: 50px;" href="javascript:void(0);" class="navbutton" onclick="navButton()">
-                    menu
-                </a>
-                <!--<a class="material-icons" style="font-size: 50px;" href="javascript:void(0);" class="navbutton" onclick="navButton()">
-                    apps
-                </a>-->
-            </div>
+    <div class="title-container">
+        <div class="title">
+            <h1 class="main-title">EFFENDI</h1>
+            <h2 class="sub-title"><i class="material-icons">place</i> Armenia</h2>
         </div>
-    </header>
+        <div class="other-galleries">
+            <a href="index.html">Ver outras galerias</a>
+        </div>
+    </div>
     <main>
-        <img src="img/armenia/IMG_8718.jpg" style="width: 100%;">
+        <div class="container-v">
+            <div class="horizontal">
+                <div>
+                    <p>
+                        A Armênia é localizada na região do Cáucaso, entre a Ásia e a Europa. O país foi assolado por um genocídio entre 1915 e 1918, onde a Turquia invadiu e instaurou um regime ditatorial, que causou a morte violenta de mais de 1,5 milhão de cidadãos armênios. O governo da Armênia ainda busca reconhecimento pelo autoritarismo e brutalidade cometidos contra seu povo; apenas 20 países reconhecem as atrocidades cometidas pela Turquia como atos genocidas.
+                    </p>
+                </div>
+                <img src="img/armenia/2.jpg">
+            </div>
+            <div class="horizontal">
+                <img src="img/armenia/3e.jpg">  
+                <div>
+                    <p>
+                        Dado o contexto histórico, agora podemos conhecer melhor a família por trás da Effendi. 
+                    </p>
+                    <p>
+                        Em algum lugar da Armênia, durante a invasão dos turcos, um homem foi levado para um campo de concentração para ser exterminado; era a realidade de muitas pessoas durante aquele período, infelizmente. Esse homem fazia pães magistralmente e, em uma das vezes que assou pão naquele campo (uma das poucas atividades permitidas), os soldados se encantaram pelo sabor daquele alimento. Gostaram tanto que ajudaram este homem a fugir e, na tentativa de sair daquele regime autoritário, veio para o Brasil. 
+                    </p>
+                </div>
+            </div>
+            <div id="carousel1" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel1Indicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel1Indicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel1Indicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carousel1Indicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/armenia/4e.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/armenia/5.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/armenia/6.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/armenia/7.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <!--TODO: Essa imagem não tem a resolução correta;
+                    <div class="carousel-item">
+                        <img src="img/armenia/8.jpg" class="d-block w-100" alt="...">
+                    </div>-->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="horizontal">
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu volutpat lorem. Integer sem neque, semper porta tempor sed, vehicula vel elit. Morbi a turpis ultrices, blandit quam eget, gravida ex. Cras ut malesuada tellus, non lacinia erat. Nunc velit lectus, sodales ac dignissim non, consequat sit amet ex. Fusce eu porttitor nisi, ut accumsan tellus. Suspendisse vehicula eros ac tempus congue. Donec sed maximus magna. Sed at blandit turpis.
+                    </p>
+                </div>
+                <img src="img/armenia/9e.jpg">
+            </div>
+            <div id="carousel2" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel2Indicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel2Indicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/armenia/10.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/armenia/11.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="horizontal">
+                <img src="img/armenia/12e.jpg">
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu volutpat lorem. Integer sem neque, semper porta tempor sed, vehicula vel elit. Morbi a turpis ultrices, blandit quam eget, gravida ex. Cras ut malesuada tellus, non lacinia erat. Nunc velit lectus, sodales ac dignissim non, consequat sit amet ex. Fusce eu porttitor nisi, ut accumsan tellus. Suspendisse vehicula eros ac tempus congue. Donec sed maximus magna. Sed at blandit turpis.
+                    </p>
+                </div>
+            </div>
+            <div id="carousel3" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel3Indicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel3Indicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/armenia/13.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <!--
+                    TODO: Tem que mudar essa imagem também
+                    <div class="carousel-item">
+                        <img src="img/armenia/14.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    -->
+                    <div class="carousel-item">
+                        <img src="img/armenia/15.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="horizontal">
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu volutpat lorem. Integer sem neque, semper porta tempor sed, vehicula vel elit. Morbi a turpis ultrices, blandit quam eget, gravida ex. Cras ut malesuada tellus, non lacinia erat. Nunc velit lectus, sodales ac dignissim non, consequat sit amet ex. Fusce eu porttitor nisi, ut accumsan tellus. Suspendisse vehicula eros ac tempus congue. Donec sed maximus magna. Sed at blandit turpis.
+                    </p>
+                </div>
+                <img src="img/armenia/16e.jpg">
+            </div>
+            <div id="carousel4" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel4Indicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel4Indicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel4Indicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/armenia/17.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/armenia/18.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/armenia/19.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="horizontal">
+                <img src="img/armenia/20e.jpg">
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu volutpat lorem. Integer sem neque, semper porta tempor sed, vehicula vel elit. Morbi a turpis ultrices, blandit quam eget, gravida ex. Cras ut malesuada tellus, non lacinia erat. Nunc velit lectus, sodales ac dignissim non, consequat sit amet ex. Fusce eu porttitor nisi, ut accumsan tellus. Suspendisse vehicula eros ac tempus congue. Donec sed maximus magna. Sed at blandit turpis.
+                    </p>
+                </div>
+            </div>
+            <div id="carousel5" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel5Indicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel5Indicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel5Indicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carousel5Indicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carousel5Indicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carousel5Indicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/armenia/21.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/armenia/22.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/armenia/23.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/armenia/24.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/armenia/25.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/armenia/26.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel5" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <br>
+            <br>
+            <footer>
+                Lorem ipsum dolor sit amet, consectetur adipiscing
+            </footer>
+        </div>
     </main>
-    <footer>
-        Lorem ipsum dolor sit amet, consectetur adipiscing
-    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>

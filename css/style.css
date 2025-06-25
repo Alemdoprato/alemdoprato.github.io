@@ -16,6 +16,12 @@ html, body {
     font-family: philosopher-regular;
 }
 
+.focus {
+    border-width: 0.05vw;
+    border-color: white;
+    border-style: solid;
+}
+
 body {
     background-image: url("");
     background-position: center;

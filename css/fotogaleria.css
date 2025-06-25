@@ -34,6 +34,10 @@ main #fotogaleria {
     cursor: pointer;
 
     transition: transform 0.1s;
+    
+    border-width: 0.02vw;
+    border-color: white;
+    border-style: solid;
 }
 
 .banner:hover {
@@ -48,7 +52,7 @@ main #fotogaleria {
 }
 
 .armenia-banner {
-    background-image: url("../img/fotogaleria/armenia.jpg");
+    background-image: url("../img/armenia/21.jpg");
 }
 
 .colombia-banner {

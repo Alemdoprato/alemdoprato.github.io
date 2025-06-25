@@ -64,7 +64,7 @@ function fadeInImage()
     document.body.className = "in"; 
 
     mainImg.src = backgroundImg;
-    mainImg.className = "in"; 
+    mainImg.className = "focus in"; 
     
     imgTitle.className = "typewriter typing";
     imgTitle.children[0].textContent = imageTitles[i];
@@ -77,7 +77,7 @@ function fadeOutImage()
     // Fade out previous background
     document.body.className = "";
 
-    mainImg.className = "";
+    mainImg.className = "focus";
     imgTitle.className = "typewriter deleting";
     
     // Fade in new background
