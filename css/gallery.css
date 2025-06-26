@@ -232,7 +232,7 @@ header, footer {
 
     margin-bottom: 2%;
 
-    font-size: 1.4vw;
+    font-size: 1.25vw;
 
     padding: 1%;
 }
@@ -268,7 +268,7 @@ header, footer {
 }
 
 .horizontal img {
-    width: 35%;
+    width: 50%;
     height: 100%;
 }
 
@@ -291,7 +291,7 @@ main {
     
     padding: 2% !important;
     background-color: white;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 .other-galleries {
@@ -334,15 +334,24 @@ main {
     box-shadow: 0px 20px 40px 10px rgba(0, 0, 0, 0.15);
     margin-right: 75%;
     text-align: center;
+    font-weight: bold;
 }
 
-.car-caption {
+.second-title {
     box-shadow: 0px 20px 40px 10px rgba(0, 0, 0, 0.15);
     text-align: center;
     color: black;
+    
+    margin-top: 4%;
     margin-bottom: 4%;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+
+    font-size: 1.45vw !important;
+    font-weight: bold;
 }
 
 .background-changer {
@@ -369,7 +378,9 @@ main {
     padding-right: 4%;
     padding-left: 4%;
     padding-bottom: 1%;
-    padding-top: 1%;
+    padding-top: 2.5%;
+
+    font-size: 1.4vw;
 
     font-style: italic;
 
@@ -396,6 +407,6 @@ main {
 }
 
 .horizontal-var img {
-    width: 45%;
+    width: 65%;
     height: 100%;
 }
