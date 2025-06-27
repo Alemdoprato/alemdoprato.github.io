@@ -53,27 +53,19 @@ div.links {
     justify-content: space-evenly;
 }
 
-header a {
-    font-size: 165%;
-    padding: 10%;
-    color: black;
-    text-decoration: none;
-}
-
-header a:hover {
-    color: #b23917;
-}
-
 header, footer {
-    display: flex;
     box-shadow: 0px 20px 40px 10px rgba(0, 0, 0, 0.15);
+    background-color: black;
+    color: white;
+
+    padding-top: 3%;
+    padding-bottom: 2%;
 }
 
 /* Desktop Responsive */
 @media (min-width: 1000px) {
     header, footer {
         box-shadow: 0px 20px 40px 10px rgba(0, 0, 0, 0.15);
-        display: flex;
         justify-content: space-around;
         align-items: center;
         text-align: center;
@@ -89,10 +81,6 @@ header, footer {
 
     header img {
         width: 12.5%;
-    }
-
-    header, footer {
-        padding: 0.5%;
     }
 
     main #sobre {
@@ -409,4 +397,13 @@ main {
 .horizontal-var img {
     width: 65%;
     height: 100%;
+}
+
+.linkedin {
+    width: 2.5% !important;
+    cursor: pointer;
+}
+
+.linkedin:hover {
+    transform: scale(1.1);
 }

@@ -13,10 +13,10 @@
     <!-- Default Header -->
     <!-- TODO: Adicionar mapa? -->
     <header>
-        <img class="mainlogo" src="./img/logo.png" alt="Logo de Além do Prato">
+        <img class="mainlogo" onclick="changePage('intro');" src="./img/logo.png" alt="Logo de Além do Prato">
         <div class="mainheader">
             <div>
-                <img src="./img/logo.png" alt="Logo de Além do Prato">
+                <img class="logo" src="./img/logo.png" alt="Logo de Além do Prato">
             </div>
             <div style="display: flex; align-content: center; justify-content: center;">
                 <a class="material-icons" style="font-size: 50px;" href="javascript:void(0);" class="navbutton" onclick="navButton()">
@@ -42,7 +42,7 @@
     </header>
 
     <main>
-        <div id="sobre">
+        <div id="intro">
             <img class="focus" src="img/home/armenia_1.jpg">
             <div>
                 <!-- TODO: Fazer a escrita não re-escrever ao trocar a aba -->
@@ -51,6 +51,18 @@
                 </div>
                 <h2><i class="material-icons">place</i> São Paulo, SP</h2>
             </div>
+        </div>
+        <div id="sobre" class="disabled">
+            <p>
+                Além do Prato - A cozinha imigrante na cidade de São Paulo é um projeto experimental de fotografia, desenvolvido como Trabalho de Conclusão de Curso da estudante de Jornalismo da Unesp, Maria Vitória Bertotti, sob orientação do professor Denis Porto Renó.
+            </p>
+            <p>
+                A ideia do projeto é demonstrar, visualmente, como a cultura de um outro país influencia desde a produção na cozinha, passando pelo ambiente e contato com os clientes, até o prato final.
+            </p>
+            <p>
+                Como o próprio nome diz, além do prato existe a história de cada pessoa que está envolvida na produção da cozinha e nos processos até a comida chegar ao cliente. Essas pessoas têm uma história para contar, e são essas histórias que fazem o alimento ter o seu sabor.
+            </p>
+            <img class="aboutlogo" src="./img/logo.png" alt="Logo de Além do Prato">
         </div>
         <div id="fotogaleria" class="disabled">
             <div class="container">
@@ -69,8 +81,8 @@
                         A cultura familiar está fortemente presente na Effendi. Nos azulejos, nas receitas, nos ingredientes que as famílias armênias vizinhas do restaurante ainda levam para preparar os pratos típicos. Ao preservar os costumes da Armênia, quem visita o local consegue ver afeto e cuidado traduzidos em cada prato que se come..
                         </p>
                     </div>
-                    <div class="banner colombia-banner" onclick="location.href = 'armenia.html';">
-                        <div class="banner-title">
+                        <div class="banner colombia-banner" onclick="location.href = 'armenia.html';">
+                            <div class="banner-title">
                             <h3>Macondo</h3> 
                             <h3>
                                 <i class="material-icons">place</i> Colômbia
@@ -132,7 +144,21 @@
         </div>
     </main>
     <footer>
-        Lorem ipsum dolor sit amet, consectetur adipiscing
+        <div>
+            <p>
+                © Maria Vitória Bertotti
+            </p>
+            <p>
+                mariavitoria.bertotti@gmail.com
+            </p>
+            <p>
+                <img class="linkedin" src="img/linkedin-icon.png" onclick="location.href = 'https://www.linkedin.com/in/maria-vit%C3%B3ria-bertotti-15b528216/';">
+            </p>
+            <br>
+            <p>
+                Site por Douglas Tavares
+            </p>
+        </div>
     </footer>
     <script src="js/index.js"></script>
     <script>    

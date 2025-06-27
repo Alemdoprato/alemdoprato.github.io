@@ -1,6 +1,6 @@
 // TODO: Remove the flickering between the transition of images
 
-var currentPage = 'sobre';
+var currentPage = 'intro';
 
 var intervalTime = 15;
 var transitionTime = 3.5; 
@@ -23,7 +23,7 @@ var imageTitles = [
 ]
 
 var homeImages = [];
-var mainImg = document.getElementById('sobre').children[0];
+var mainImg = document.getElementById('intro').children[0];
 var imgTitle = document.getElementsByClassName('typewriter')[0];
 
 // Utility

@@ -49,19 +49,19 @@ main {
     backdrop-filter: blur(6px);
 }
 
-main #sobre {
+main #intro {
     justify-content: space-evenly;
     align-items: center;
     display: flex;
     height: 100%;
 }
 
-main #sobre img {
+main #intro img {
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
 }
 
-main #sobre img.in {
+main #intro img.in {
     opacity: 1;
 }
 
@@ -93,10 +93,28 @@ header a:hover {
     color: #b23917;
 }
 
-header, footer {
-    display: flex;
-    box-shadow: 0px 20px 40px 10px rgba(0, 0, 0, 0.15);
+header {
     background-image: url("../img/background.jpg");
+}
+
+header, footer {
+    box-shadow: 0px 20px 40px 10px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.mainlogo {
+    cursor: pointer;
+
+    transition: transform 0.1s;
+}
+
+.mainlogo:hover {
+    transform: scale(1.05);
 }
 
 /* Desktop Responsive */
@@ -104,9 +122,12 @@ header, footer {
     header, footer {
         box-shadow: 0px 20px 40px 10px rgba(0, 0, 0, 0.15);
         display: flex;
-        justify-content: space-around;
         align-items: center;
         text-align: center;
+    }
+
+    header {
+        justify-content: space-around;  
     }
 
     .navbutton {
@@ -126,11 +147,22 @@ header, footer {
     }
 
     main #sobre {
-        display: flex;
-        flex-direction: row;
+        margin-top: 4%;
+        margin-bottom: 1%;
     }
 
-    main #sobre img {
+    main #fotogaleria {
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    main #intro {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5%;
+    }
+
+    main #intro img {
         object-fit: cover;
         max-width: 55%;
         max-height: 100%;
@@ -139,7 +171,7 @@ header, footer {
         transition: opacity 1s ease;
     }
 
-    main #sobre h2 {
+    main #intro h2 {
         font-size: 100%;
     }
 
@@ -155,11 +187,11 @@ header, footer {
         display: none;
     }
 
-    main #sobre h2 {
+    main #intro h2 {
         font-size: 1.1vw;
     }
 
-    main #sobre h2 i {
+    main #intro h2 i {
         font-size: 1vw;
     }
 }
@@ -230,12 +262,12 @@ header, footer {
         text-align: center;
     }
 
-    main #sobre {
+    main #intro {
         display: flex;
         flex-direction: column;
     }
 
-    main #sobre img {
+    main #intro img {
         object-fit: cover;
         max-width: 100%;
         max-height: 100%;
@@ -244,7 +276,7 @@ header, footer {
         transition: opacity 1s ease;
     }
 
-    main #sobre h2 {
+    main #intro h2 {
         font-size: 120%;
     }
 
@@ -252,16 +284,16 @@ header, footer {
         font-size: 8vw !important;
     }
 
-    main #sobre h2 {
+    main #intro h2 {
         font-size: 4vw;
     }
 
-    main #sobre h2 i {
+    main #intro h2 i {
         font-size: 4.2vw;
     }
 }
 
-main #sobre h2 {
+main #intro h2 {
     color: white;
     text-align: center;
     width: 150%;
@@ -306,4 +338,33 @@ main #sobre h2 {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: white; }
+}
+
+.logo {
+    cursor: pointer !important;
+}
+
+.linkedin {
+    width: 2.5% !important;
+    cursor: pointer;
+}
+
+.linkedin:hover {
+    transform: scale(1.1);
+}
+
+#sobre {
+    color: white;
+    
+    margin-left: 25%;
+    margin-right: 25%;
+
+    font-size: 1.5vw;
+
+    text-align: center;
+}
+
+.aboutlogo {
+    width: 30%;
+    margin-bottom: 5%;
 }
