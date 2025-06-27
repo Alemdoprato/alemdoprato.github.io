@@ -56,23 +56,24 @@ main #fotogaleria {
 }
 
 .colombia-banner {
-    background-image: url("../img/fotogaleria/colombia.jpg");
+    background-image: url("../img/colombia/23e.jpg");
 }
 
 .franca-banner {
-    background-image: url("../img/fotogaleria/franca.jpg");
+    background-image: url("../img/franca/11.jpg");
 }
 
 .grecia-banner {
-    background-image: url("../img/fotogaleria/grecia.jpg");
+    background-image: url("../img/grecia/24.jpg");
 }
 
 .italia-banner {
-    background-image: url("../img/fotogaleria/italia.jpg");
+    background-image: url("../img/italia/1e.jpg");
 }
 
 .japao-banner {
-    background-image: url("../img/fotogaleria/japao.jpg");
+    background-image: url("../img/japao/18.jpg");
+    background-position-y: 100%;
 }
 
 /* Desktop Responsive */

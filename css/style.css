@@ -194,6 +194,27 @@ footer {
     main #intro h2 i {
         font-size: 1vw;
     }
+
+    .linkedin {
+        width: 1.8% !important;
+        cursor: pointer;
+    }
+
+    #sobre {
+        color: white;
+        
+        margin-left: 25%;
+        margin-right: 25%;
+
+        font-size: 1.5vw;
+
+        text-align: center;
+    }
+
+    .aboutlogo {
+        width: 30%;
+        margin-bottom: 5%;
+    }
 }
 
 /* Mobile Responsive */
@@ -291,6 +312,28 @@ footer {
     main #intro h2 i {
         font-size: 4.2vw;
     }
+
+    .linkedin {
+        width: 5% !important;
+        cursor: pointer;
+    }
+
+    #sobre {
+        color: white;
+        
+        margin-left: 10%;
+        margin-right: 10%;
+
+        font-size: 3.5vw;
+
+        text-align: center;
+    }
+
+    .aboutlogo {
+        width: 50%;
+        margin-top: 8%;
+        margin-bottom: 5%;
+    }
 }
 
 main #intro h2 {
@@ -344,27 +387,6 @@ main #intro h2 {
     cursor: pointer !important;
 }
 
-.linkedin {
-    width: 2.5% !important;
-    cursor: pointer;
-}
-
 .linkedin:hover {
     transform: scale(1.1);
-}
-
-#sobre {
-    color: white;
-    
-    margin-left: 25%;
-    margin-right: 25%;
-
-    font-size: 1.5vw;
-
-    text-align: center;
-}
-
-.aboutlogo {
-    width: 30%;
-    margin-bottom: 5%;
 }
