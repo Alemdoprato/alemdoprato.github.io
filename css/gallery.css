@@ -250,6 +250,14 @@ header, footer {
         font-weight: bold;
     }
 
+    .empty-caption {
+        background-color: white;
+        box-shadow: 0px 20px 40px 10px rgba(0, 0, 0, 0.15);
+        margin-right: 75%;
+        text-align: center;
+        font-weight: bold;
+    }
+
     .time {
         margin-left: 25% !important;
         margin-right: 25% !important;
@@ -275,6 +283,22 @@ header, footer {
         padding-top: 2%;
         box-shadow: 0px 20px 40px 10px black;
         z-index: 10;
+    }
+
+    .vertical-img {
+        width: 40% !important;
+    }
+
+    .vertical-img-2 {
+        width: 30% !important;
+    }
+
+    .s-img {
+        width: 40% !important;
+    }
+
+    .s-img-2 {
+        width: 30% !important;
     }
 }
 
@@ -486,6 +510,10 @@ header, footer {
 
         padding-left: 5%;
         padding-right: 5%;
+    }
+
+    .empty-caption {
+        display: none;
     }
 
     .center-img img {

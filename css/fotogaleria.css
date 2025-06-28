@@ -33,7 +33,7 @@ main #fotogaleria {
 
     cursor: pointer;
 
-    transition: transform 0.1s;
+    transition: transform 0.05s;
     
     border-width: 0.02vw;
     border-color: white;
@@ -45,10 +45,18 @@ main #fotogaleria {
 }
 
 .banner-title {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 5%;
-    margin-right: 5%;
+
+    align-content: center;
+    text-align: center;
+
+    width: 100%;
+    font-size: 1.2vw;
+}
+
+.banner p {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
 }
 
 .armenia-banner {
