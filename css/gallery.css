@@ -290,15 +290,15 @@ header, footer {
     }
 
     .vertical-img-2 {
-        width: 30% !important;
+        width: 20% !important;
     }
 
     .s-img {
         width: 40% !important;
     }
 
-    .s-img-2 {
-        width: 30% !important;
+    .m-img {
+        width: 40% !important;
     }
 }
 
