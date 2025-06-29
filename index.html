@@ -12,6 +12,7 @@
 <body>
     <!-- Default Header -->
     <!-- TODO: Adicionar mapa? -->
+    <!-- TODO: Otimizar imagens que são muito grandes -->
     <header>
         <img class="mainlogo" onclick="changePage('intro');" src="./img/logo.png" alt="Logo de Além do Prato">
         <div class="mainheader">
@@ -160,6 +161,13 @@
         var intervalId = window.setInterval(function() { fadeOutImage(); }, intervalTime * 1000);
 
         fadeInImage();
+
+        console.log(location.href);
+
+        if (location.href[location.href.length - 1] == '#')
+        {
+            changePage('fotogaleria');   
+        }
     </script>
 </body>
 </html>

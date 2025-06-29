@@ -50,7 +50,6 @@ main #fotogaleria {
     text-align: center;
 
     width: 100%;
-    font-size: 1.2vw;
 }
 
 .banner p {
@@ -103,6 +102,10 @@ main #fotogaleria {
         margin-bottom: 1.5%;
     }
 
+    .banner-title {
+        font-size: 1.2vw;
+    }
+
     .info {
         font-size: 1.15vw;
         margin-bottom: 1.5%;
@@ -115,6 +118,7 @@ main #fotogaleria {
         font-size: 25px;
         margin-left: 5%;
         margin-right: 5%;
+        margin-top: 5%;
     }
 
     .row {
@@ -127,6 +131,10 @@ main #fotogaleria {
     .banner {
         padding: 5%;
         margin-bottom: 4%;
+    }
+
+    .banner-title {
+        font-size: 5vw;
     }
 
     .info {
