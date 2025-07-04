@@ -59,27 +59,27 @@ main #fotogaleria {
 }
 
 .armenia-banner {
-    background-image: url("../img/armenia/21.jpg");
+    background-image: url("../img/armenia/desktop/21.jpg");
 }
 
 .colombia-banner {
-    background-image: url("../img/colombia/23e.jpg");
+    background-image: url("../img/colombia/desktop/23e.jpg");
 }
 
 .franca-banner {
-    background-image: url("../img/franca/11.jpg");
+    background-image: url("../img/franca/desktop/11.jpg");
 }
 
 .grecia-banner {
-    background-image: url("../img/grecia/24.jpg");
+    background-image: url("../img/grecia/desktop/24.jpg");
 }
 
 .italia-banner {
-    background-image: url("../img/italia/1e.jpg");
+    background-image: url("../img/italia/desktop/1e.jpg");
 }
 
 .japao-banner {
-    background-image: url("../img/japao/18.jpg");
+    background-image: url("../img/japao/desktop/18.jpg");
     background-position-y: 100%;
 }
 
