@@ -28,8 +28,6 @@ body {
 
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
-    transform: translate3d(0, 0, 0);
-    -webkit-transform: translate3d(0,0,0);
 }
 
 header img {
@@ -308,6 +306,23 @@ header, footer {
 
     .m-img {
         width: 50% !important;
+    }
+
+    .logo {
+        width: 10%;
+        position: fixed;
+        top: 0;
+        z-index: 45;
+        background-color: white;
+        padding: 1%;
+        margin: 1%;
+        opacity: 0.5;
+    }
+
+    .logo:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+        opacity: 1;
     }
 }
 
